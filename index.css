@@ -1,0 +1,63 @@
+body {
+    background-image: url("bonnie.jpg");
+    background-size: cover;
+    background-position: center;
+font-family: 'Indie Flower', cursive;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    width:90%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 3px solid #553D36;
+    border-radius: 10px;
+}
+
+.overlay {
+    background-color: rgba(255,255,255,40%);
+    position: absolute;
+    inset:0;
+}
+
+h1 {
+    font-size:60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#684A52;
+}
+
+h2 {
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:#684A52;
+    
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #857885;
+}
+
+#save-btn {
+    background: #87A0B2;
+}
+
+#save-el {
+    font-weight: bold;
+    font-size:20px;
+    color:#553D36;
+}
+
